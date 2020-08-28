@@ -1,0 +1,39 @@
+body{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    Align-items: center;
+    min-width: 100vh;
+}
+
+.div {
+    padding: 0 100px;
+}
+
+.h1 {
+    text-align: center;
+    margin: 100px 50px;
+}
+.p1 {margin-top: 50px;}
+
+@media (max-width: 480px) {
+    body {
+        background-color: tomato;
+    }
+
+    .h1 {
+        margin: 0 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+    .h1 {
+        margin: 100px 0px;
+    }
+
+    .div {
+        padding: 0 50px;
+    }
+
+}
